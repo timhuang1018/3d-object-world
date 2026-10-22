@@ -1,0 +1,23 @@
+{
+  "name": "3d-object-world",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Infrastructure for building deterministic 3D scenes with Blender (scripted GLB bank items) and Three.js, plus sample projects",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "assets": "./.venv/bin/python infra/blender/build.py",
+    "shot": "node infra/tools/shot.mjs",
+    "render": "node infra/tools/render.mjs",
+    "compress": "./.venv/bin/python infra/tools/compress.py"
+  },
+  "dependencies": {
+    "three": "0.177.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.11.1",
+    "vite": "7.0.6"
+  }
+}

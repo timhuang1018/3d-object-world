@@ -1,0 +1,20 @@
+# dependencies and local environments
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# build and render output
+dist/
+out/
+preview/
+samples/*/out/
+
+# per-build scratch files written next to a project's manifest
+samples/*/public/assets/manifest.json.lock
+samples/*/public/assets/manifest.json.tmp
+samples/*/public/assets/test/
+
+# editors / OS
+.DS_Store
+*.blend1
