@@ -1,0 +1,336 @@
+{
+  "items": {
+    "characters/guoguo": {
+      "file": "characters/guoguo.glb",
+      "sha256": "6645fab7d0e3df451649117a4bb9d3c2186dc1cd18838294d588b6054c5a0388",
+      "bytes": 1335716,
+      "provenance": {
+        "tool": "blender (bpy module)",
+        "blender": "5.2.0 LTS",
+        "script": "samples/scene-001/items/guoguo.py",
+        "script_sha256": "6fb120177b5f7e6bb4d1359aaf40bd799fd5d45fcc73373da70371d9549fa6a6"
+      },
+      "meta": {
+        "seated_height_m": 0.5,
+        "standing_height_m": 0.66,
+        "joints": [
+          "root",
+          "body",
+          "head",
+          "flipper_L",
+          "flipper_R",
+          "foot_L",
+          "foot_R"
+        ],
+        "actions": {
+          "seated_idle": 3.0,
+          "startled": 1.6,
+          "flinch": 0.6,
+          "look_off": 2.0
+        },
+        "triangles": 27000,
+        "fur": {
+          "meshes": [
+            "body_mesh",
+            "flipper_mesh_L",
+            "flipper_mesh_R"
+          ],
+          "attribute": "_FURLEN",
+          "shells": 22,
+          "length_m": 0.015
+        },
+        "wide_eye_meshes": [
+          "eyewide_L",
+          "eyewide_R"
+        ]
+      }
+    },
+    "characters/lioness": {
+      "file": "characters/lioness.glb",
+      "sha256": "eac818fafa7f08e09cc9fda606b020bed3c066b0ada2030e7efdebd5997e514a",
+      "bytes": 3057656,
+      "provenance": {
+        "tool": "blender (bpy module)",
+        "blender": "5.2.0 LTS",
+        "script": "samples/scene-001/items/lioness.py",
+        "script_sha256": "de3952b05c09714f59f606828afc635b0fdbb5d3a99be63cc6a214dc7b316745"
+      },
+      "meta": {
+        "height_m": 1.58,
+        "triangles": 97252,
+        "vertices": 48861,
+        "decal": {
+          "center": [
+            0.0,
+            1.285,
+            0.0
+          ],
+          "half_size": 0.34,
+          "nose_top_v": 0.462,
+          "ear_inner_u": 0.799
+        },
+        "walk_stride_per_cycle_m": 0.66,
+        "actions": {
+          "akimbo": 0.35,
+          "brace": 0.35,
+          "listen": 0.6,
+          "point": 0.9,
+          "stand": 2.0,
+          "upright": 0.3,
+          "walk": 1.0
+        }
+      }
+    },
+    "characters/tim": {
+      "file": "characters/tim.glb",
+      "sha256": "f9c8b98bd42b17961d621857d7b619ae05591045d22b11d976a4b373bf18ef89",
+      "bytes": 2881340,
+      "provenance": {
+        "tool": "blender (bpy module)",
+        "blender": "5.2.0 LTS",
+        "script": "samples/scene-001/items/tim.py",
+        "script_sha256": "559b6d5f031d4d5166dff3ad32163678ee5be994c20fce150d386fb244d810b6"
+      },
+      "meta": {
+        "joints": [
+          "root",
+          "hips",
+          "torso",
+          "neck",
+          "head",
+          "upperarm_L",
+          "forearm_L",
+          "hand_L",
+          "grip_L",
+          "upperarm_R",
+          "forearm_R",
+          "hand_R",
+          "grip_R",
+          "thigh_L",
+          "shin_L",
+          "foot_L",
+          "thigh_R",
+          "shin_R",
+          "foot_R"
+        ],
+        "actions": {
+          "sit_type": 1.6,
+          "sit_idle": 2.4,
+          "sit_shock": 0.6,
+          "stand_idle": 2.4,
+          "stand_wash": 1.0,
+          "stand_sink_idle": 2.4
+        },
+        "head_centre": [
+          0.0,
+          1.08,
+          0.0
+        ],
+        "seat": {
+          "seat_top_y": 0.4,
+          "hips_loc": [
+            0.0,
+            0.046,
+            0.0
+          ],
+          "hips_rx_deg": 4.0
+        },
+        "grip_rest": {
+          "L": [
+            0.223,
+            0.4317,
+            0.0
+          ],
+          "R": [
+            -0.223,
+            0.4317,
+            0.0
+          ]
+        },
+        "stand_wash_grip_L_t0": [
+          0.1034,
+          0.5202,
+          0.27
+        ],
+        "keyboard_home_row": [
+          [
+            0.07,
+            0.585,
+            0.37
+          ],
+          [
+            -0.07,
+            0.585,
+            0.37
+          ]
+        ]
+      }
+    },
+    "props/bulb": {
+      "file": "props/bulb.glb",
+      "sha256": "0c6c70ab371df600624b1586411053b23f454ad3ba96350a465657d7139ee5d6",
+      "bytes": 106880,
+      "provenance": {
+        "tool": "blender (bpy module)",
+        "blender": "5.2.0 LTS",
+        "script": "samples/scene-001/items/bulb.py",
+        "script_sha256": "ffa6f26ced2379b07c22bea86d21160403487e467e7f14cd7b6de16aace540fd"
+      },
+      "meta": {
+        "height_m": 0.25,
+        "glass_radius_m": 0.075,
+        "origin": "glass centre"
+      }
+    },
+    "props/dishes": {
+      "file": "props/dishes.glb",
+      "sha256": "08c5e7aeabdde8210c4aeaf018e9bcacc11a02f33202fb2bb61753ba860d25d2",
+      "bytes": 543212,
+      "provenance": {
+        "tool": "blender (bpy module)",
+        "blender": "5.2.0 LTS",
+        "script": "samples/scene-001/items/dishes.py",
+        "script_sha256": "a8e414e8089f335e648796b5ef6aa519aff6c1b7cab0b72219ad2bcccaa5db67"
+      },
+      "meta": {
+        "nodes": {
+          "plate_dirty": "d 0.222, h 0.018, origin bottom centre, flat (normal +y)",
+          "plate_clean": "same plate, clean",
+          "sponge": "0.10 x 0.045 x 0.066 (x, y, z), scour pad on +y, origin centre",
+          "suds_puff": "merged foam clump ~0.07 across, 0.018 tall, origin bottom centre",
+          "suds_dab": "flatter foam clump ~0.055 across, 0.011 tall (clings to a plate face), origin bottom centre"
+        },
+        "plate_stack_pitch": 0.0085
+      }
+    },
+    "sets/kitchen": {
+      "file": "sets/kitchen.glb",
+      "sha256": "d054791f2caaf3667d7099002423edc12426a2e95369bf6d1a0ce77803929f01",
+      "bytes": 4253928,
+      "provenance": {
+        "tool": "blender (bpy module)",
+        "blender": "5.2.0 LTS",
+        "script": "samples/scene-001/items/kitchen.py",
+        "script_sha256": "eb00efb5453f611351fceeb220c16f9e910a757f8254aaaa34e9112c9a5248f1"
+      },
+      "meta": {
+        "spots": {
+          "spot_sink": [
+            0.36,
+            0.0,
+            -0.42,
+            0
+          ],
+          "spot_guoguo": [
+            1.05,
+            0.62,
+            -1.62,
+            -15
+          ],
+          "spot_plate_stack": [
+            0.635,
+            0.5,
+            -0.13,
+            0
+          ],
+          "spot_rack": [
+            0.8250000000000001,
+            0.5,
+            -0.1,
+            0
+          ],
+          "spot_rack_1": [
+            0.785,
+            0.516,
+            -0.1,
+            90
+          ],
+          "spot_rack_2": [
+            0.825,
+            0.516,
+            -0.1,
+            90
+          ],
+          "spot_rack_3": [
+            0.865,
+            0.516,
+            -0.1,
+            90
+          ]
+        },
+        "island_top_y": 0.5,
+        "water_y": 0.468,
+        "work_patch": [
+          0.345,
+          -0.13,
+          0.12,
+          0.085
+        ],
+        "hooks": [
+          "faucet_spout",
+          "sink_foam",
+          "sink_foam_base",
+          "light_window",
+          "clock_hour",
+          "clock_minute"
+        ]
+      }
+    },
+    "sets/office": {
+      "file": "sets/office.glb",
+      "sha256": "c096ab2f5ba9ac39dd2f0dc87510c11fba216915d4db26c9bd0149795a6d4df1",
+      "bytes": 3226568,
+      "provenance": {
+        "tool": "blender (bpy module)",
+        "blender": "5.2.0 LTS",
+        "script": "samples/scene-001/items/office.py",
+        "script_sha256": "03ac022134aa60d88b812647ca8b191141dfaa0bce6ff7cb9b5851e4bdd37027"
+      },
+      "meta": {
+        "spots": {
+          "spot_desk_seat": [
+            0.85,
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "spot_doorway_out": [
+            -3.25,
+            0.0,
+            -0.7,
+            90.0
+          ],
+          "spot_doorway_in": [
+            -1.15,
+            0.0,
+            -0.1,
+            90.0
+          ],
+          "spot_shelf_top": [
+            -0.26,
+            1.04,
+            -1.72,
+            15.0
+          ],
+          "spot_turntable": [
+            1.85,
+            0.0,
+            0.65,
+            0.0
+          ]
+        },
+        "hooks": [
+          "door_hinge",
+          "chair_base",
+          "chair_swivel",
+          "laptop_lid",
+          "laptop_screen",
+          "light_hall",
+          "light_laptop",
+          "clock_hour",
+          "clock_minute"
+        ]
+      }
+    }
+  }
+}
